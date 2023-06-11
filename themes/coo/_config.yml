@@ -3,24 +3,11 @@ recent_posts_limits: 4
 
 # The categories and order displayed on the home page
 index_categories:
-  - Programming
-  - Toolkit
-  - Linux Command
-  - Python
-  - Database
-  - Keyboard Shortcuts
-  - Other
+  - 1ère Année
 
 # Home recommended posts
 index_recommends:
-  - chatgpt
-  - bash
-  - python
-  - javascript
-  - go
-  - vim
-  - regex
-  - awk
+  - algorithmique-avance
 
 
 # Related popular posts
@@ -36,8 +23,8 @@ related_posts:
     #isExcerpt: false
 
 top_posts:
-  enable: true
+  enable: false
   title: Top
   params:
-    maxCount: 4
+    maxCount: 0
     PPMixingRate: 1.0

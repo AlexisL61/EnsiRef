@@ -2,7 +2,7 @@
 <header class="<% if (is_home()){ %>home bg-blue-500 dark:bg-slate-800<% } %>">
     <div class="max-container z-10">
         <div class="flex flex-row justify-between md:justify-start items-center py-3">
-            <%- partial('index/logo', {icon: true}) %>
+            <span class="text-4xl md:text-5xl text-slate-700 dark:text-slate-300 leading-relaxed <%- is_home() ? "md:text-white" : "" %> md:mr-2">EnsiRef</span>
             <div class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <button id="mysearch-trigger" type="button"
                         class="fadeIn inline-flex h-8 items-center bg-slate-200 dark:bg-gray-900 md:dark:bg-transparent md:bg-transparent rounded-full px-2 md:px-3 lg:px-6 py-2 <%- is_home() ? "text-white" : "text-slate-700"  %>  md:hover:opacity-80">
