@@ -27,7 +27,7 @@ Le code de ce repository est repris de QuickRef.me
 
 ## 🤝 Contributing
 
-1. Clone Github repo `git clone https://github.com/Fechin/reference.git`
+1. Clone Github repo `git clone https://github.com/AlexisL61/EnsiRef.git`
 2. Install `npm` package manager (Read [installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm))
 3. Run `npm install` in the root folder to install dependencies.
 4. Run `npm run dev` to start a dev server. This serves the project and live reloads when any files are changed, then visit http://127.0.0.1:4000 preview.
@@ -52,22 +52,4 @@ categories:
 ```
 Only the `title` and `intro` fields are required, and the other options can be left blank. 
 
-
-<a href="https://github.com/Fechin/reference/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Fechin/reference" />
-</a>
-
-
-## 🐦 Follow us on Twitter
-
-[![Follow us on Twitter](https://img.shields.io/twitter/follow/FechinLi?color=%234a99e9&style=for-the-badge)](https://twitter.com/FechinLi)
-
-Stay up-to-date with our project by following us on Twitter! Get all the latest news and updates right in your feed. It's the perfect way to stay in the loop.
-
-<a href="https://www.buymeacoffee.com/randy8080"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=randy8080&button_colour=40DCA5&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
-
-
-## 📃 License
-
-The project is licensed under the [MIT](https://github.com/Fechin/reference/blob/main/LICENSE) License and is maintained by [Fechin](https://github.com/Fechin).
 
