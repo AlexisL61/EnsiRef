@@ -34,6 +34,8 @@ jobs:
       - run: npm i && npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        with: 
+           path: public
 
   # Deployment job
   deploy:
