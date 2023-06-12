@@ -2,7 +2,7 @@
 title: Algorithmique avancé
 background: bg-[#4aa181]
 tags:
-    - Mathématiques
+    - Algorithmique
 categories:
     - 1ère Année
 intro: Cette page essaie de résumer le cours d'algorithmique avancé avec les éléments principaux
