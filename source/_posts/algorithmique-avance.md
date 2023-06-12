@@ -6,6 +6,9 @@ tags:
 categories:
     - 1ère Année
 intro: Cette page essaie de résumer le cours d'algorithmique avancé avec les éléments principaux
+plugins:
+  - katex
+  - copyCode
 ---
 
 Arbres {.cols-6}
@@ -398,6 +401,51 @@ Suppression(Arbre A, k)
             retourne copie
         Fin
     Fin
+```
+
+Master Theorem {.cols-4}
+----
+
+### Master theorem 
+
+Le Master theorem permet de factoriser une complexité. Elle existe en 3 partie.
+
+Si on a une complexité de cette forme : 
+
+```KaTeX
+c(\color{red}{m}\color{black}) = \color{blue}{a} \color{black}\times c (\color{red}{m}\color{black} / \color{green}{b}\color{black}) + f(\color{red}{m}\color{black})
+```
+
+Alors il est possible de factoriser la complexité en fonction de `KaTeX:f`
+
+### Partie 1
+
+Si `KaTeX:f` croit lentement : `KaTeX:f(\color{red}m\color{black}) = o(\color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}})`
+
+Alors il est possible de factoriser c(m) de cette façon : 
+
+```KaTeX
+c(\color{red}m\color{black}) = o(\color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}})
+```
+
+### Partie 2
+
+Si `KaTeX:f` croit assez rapidement : `KaTeX:f(\color{red}m\color{black}) = o(\color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}})`
+
+Alors il est possible de factoriser c(m) de cette façon : 
+
+```KaTeX
+c(\color{red}m\color{black}) = o(\color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}} \times log(\color{red}m\color{black}))
+```
+ 
+ ### Partie 3
+ 
+ Si `KaTeX:f` croit rapidement : `KaTeX:\color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}} = o(f(\color{red}m\color{black}))`
+
+Alors il est possible de factoriser c(m) de cette façon : 
+
+```KaTeX
+c(\color{red}m\color{black}) = o(f(\color{red}m\color{black}))
 ```
 
 Graphes
