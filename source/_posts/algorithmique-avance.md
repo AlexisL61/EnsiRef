@@ -520,8 +520,6 @@ De la même manière, si on utilise des distances, on les ajoute dans la matrice
 
 ### Parcours dans un graphe
 
-#### Parcours en profondeur
-
 #### Parcours en largeur
 
 On utilise une File
