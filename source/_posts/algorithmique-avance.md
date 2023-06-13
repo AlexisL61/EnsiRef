@@ -420,7 +420,7 @@ Alors il est possible de factoriser la complexité en fonction de `KaTeX:f`
 
 ### Partie 1
 
-Si `KaTeX:f` croit lentement : `KaTeX:f(\color{red}m\color{black}) = o(\color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}})`
+Si `KaTeX:f` croit lentement : `KaTeX:f(\color{red}m\color{black}) \text{est négligeable par rapport à}\\ \color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}}`
 
 Alors il est possible de factoriser c(m) de cette façon : 
 
@@ -430,7 +430,7 @@ c(\color{red}m\color{black}) = o(\color{red}m\color{black}^{log_{\color{blue}b}^
 
 ### Partie 2
 
-Si `KaTeX:f` croit assez rapidement : `KaTeX:f(\color{red}m\color{black}) = o(\color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}})`
+Si `KaTeX:f` croit assez rapidement : `KaTeX:f(\color{red}m\color{black}) \text{est négligeable par rapport à}\\ \color{red}m\color{black}^{log_{\color{blue}b}^{\color{green}a\color{black}}}`
 
 Alors il est possible de factoriser c(m) de cette façon : 
 
