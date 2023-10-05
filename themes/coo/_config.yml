@@ -4,6 +4,7 @@ recent_posts_limits: 4
 # The categories and order displayed on the home page
 index_categories:
   - 1ère Année
+  - 2ème Année
 
 # Home recommended posts
 index_recommends:
