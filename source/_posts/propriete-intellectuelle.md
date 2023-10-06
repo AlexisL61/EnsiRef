@@ -1,6 +1,6 @@
 ---
 title: Propriété intellectuelle
-background: bg-[#1E3CBE]
+background: bg-[#219ebc]
 tags:
     - Droit
 categories:

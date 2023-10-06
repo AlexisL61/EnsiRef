@@ -1,6 +1,6 @@
 ---
 title: Ecosystème des e-paiements
-background: bg-[#1E3CBE]
+background: bg-[#f4a261]
 tags:
     - EPaiement
 categories:
